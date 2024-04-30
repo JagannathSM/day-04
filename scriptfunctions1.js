@@ -10,7 +10,7 @@ var addition = function (arr){
     }
     return sum;
 }
-console.log("Output for addition of elements"+"-"+addition(arr));
+console.log("Anonymous function Output for addition of elements"+"-"+addition(arr));
 
 
 // PRINT ODD NUMBERS IN AN ARRAY
@@ -23,7 +23,7 @@ var oddnumber = function (arr){
     }
     return out;
 }
-console.log("Output for oddnumbers"+"-"+oddnumber(arr));
+console.log("Anonymous function Output for oddnumbers"+"-"+oddnumber(arr));
 
 
 // RETURN ALL PRIME NUMBERS IN AN ARRAY
@@ -43,7 +43,7 @@ var primenumber = function (arr){
     }
     return out1;
 }
-console.log("Output for Primenumbers"+"-"+primenumber(arr));
+console.log("Anonymous function Output for Primenumbers"+"-"+primenumber(arr));
 
 
 // RETURN ALL PALINDROMES IN AN ARRAY
@@ -58,12 +58,12 @@ var palindromenumber = function(arr){
         test.reverse();
         temp = test.join('');
         if(arr1[i]==temp){
-            out2.push(arr[i]);
+            out2.push(arr1[i]);
         }
     }
     return out2;
 }
-console.log("Output for Palindromenumbers"+"-"+palindromenumber(arr1));
+console.log("Anonymous function Output for Palindromenumbers"+"-"+palindromenumber(arr1));
 
 
 // RETURN MEDIAN OF 2 SORTED ARRAY OF SAME SIZE
@@ -77,7 +77,7 @@ var median2array = function (arr1,arr2){
     var mediansum = (a+b)/2;
     return mediansum;
 }
-console.log("Output for median of 2 arr"+"-"+median2array(a1,a2));
+console.log("Anonymous function Output for median of 2 arr"+"-"+median2array(a1,a2));
 
 
 // REMOVE DUPLICATES FROM AN ARRAY
@@ -88,7 +88,7 @@ var duplicatearray = function(arr){
     });
     return output;
 }
-console.log("Output for revome of duplicate ele"+"-"+duplicatearray(arr2));
+console.log("Anonymous function Output for revome of duplicate ele"+"-"+duplicatearray(arr2));
 
 
 // ROTATE AN ARRAY IN 'K' TIMES
@@ -100,7 +100,7 @@ function rotateArray1(nums, k) {
     }
 } 
 rotateArray1(arr3, 2);
-console.log("Output for rotate array ele K times"+"-"+arr3);
+console.log("Anonymous function Output for rotate array ele K times"+"-"+arr3);
 
 
 // CONVERT ALL THE STRINGS TO TITLE CAPS IN STRING ARRAY
@@ -117,4 +117,4 @@ var stringtotitlecaps = function (a){
     }
     return(result.join(' '));
 }
-console.log("Output for string to title caps"+"-"+stringtotitlecaps(str));
+console.log("Anonymous function Output for string to title caps"+"-"+stringtotitlecaps(str));
